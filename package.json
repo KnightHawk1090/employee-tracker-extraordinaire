@@ -1,0 +1,19 @@
+{
+  "name": "employee-tracker-extraordinaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnightHawk1090/employee-tracker-extraordinaire.git"
+  },
+  "author": "E Partain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KnightHawk1090/employee-tracker-extraordinaire/issues"
+  },
+  "homepage": "https://github.com/KnightHawk1090/employee-tracker-extraordinaire#readme"
+}
