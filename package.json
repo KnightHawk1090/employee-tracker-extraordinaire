@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KnightHawk1090/employee-tracker-extraordinaire/issues"
   },
-  "homepage": "https://github.com/KnightHawk1090/employee-tracker-extraordinaire#readme"
+  "homepage": "https://github.com/KnightHawk1090/employee-tracker-extraordinaire#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
