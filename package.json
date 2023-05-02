@@ -1,10 +1,15 @@
 {
   "name": "employee-tracker-extraordinaire",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "![badge](https://img.shields.io/badge/license-MIT-darkred)",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "mysql db/employee_db < db/schema.sql",
+    "seed": "mysql db/employee_db < db/seeds.sql",
+    "db": "mysql db/employee_db",
+    "watch": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +22,20 @@
   },
   "homepage": "https://github.com/KnightHawk1090/employee-tracker-extraordinaire#readme",
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "mysql2": "^3.2.4"
+    "chalk": "^5.2.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.4",
+    "node-fetch": "^3.3.1",
+    "readline-sync": "^1.4.10",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jest": "^29.5.0"
   }
 }
