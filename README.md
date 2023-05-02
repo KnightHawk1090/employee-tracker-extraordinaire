@@ -36,7 +36,8 @@ https://github.com/KnightHawk1090/employee-tracker-extraordinaire
 
 ### Video preview
 
+https://drive.google.com/file/d/1qTxESXfK1v-XH7DzsUhrTueFowgh4VfB/view
 
-### sample screenshot
+
 
 
